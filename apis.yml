@@ -1,7 +1,25 @@
 aid: aminochain
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/aminochain.png
 name: AminoChain
-description: AminoChain is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: AminoChain operates a transparent, decentralized research ecosystem for
+  patient-centric biomedical research. Its Specimen Center helps researchers discover
+  and access legacy biospecimens through decentralized specimen discovery and collaboration,
+  while its Donor Platform enables prospective participant registries and manages participant
+  involvement in studies. The platform emphasizes privacy-preserving re-engagement,
+  cryptographic tracking of biospecimens, auditable consent, and benefit-sharing models
+  that return value to patients and donors. Backed by a16z. AminoChain currently exposes
+  no public developer API, SDK, or documentation surface.
 url: https://raw.githubusercontent.com/api-evangelist/aminochain/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,9 +32,36 @@ created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Biotech
+- Biomedical Research
+- Biobanking
+- Specimen Discovery
+- Decentralized
+- Healthcare
+- Consent Management
 apis: []
+common:
+- type: DomainSecurity
+  url: security/aminochain-domain-security.yml
+- type: Website
+  url: https://aminochain.io
+- type: Blog
+  url: https://aminochain.io/blog
+- type: TermsOfService
+  url: https://aminochain.io/terms
+- type: PrivacyPolicy
+  url: https://aminochain.io/terms
+- type: X
+  url: https://x.com/Amino_Chain
+- type: LinkedIn
+  url: https://www.linkedin.com/company/aminochain
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
